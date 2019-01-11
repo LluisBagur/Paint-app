@@ -1,0 +1,7 @@
+{
+    "plugins": ["@babel/plugin-proposal-class-properties"],
+    //con este plugin conseguimos que JEST entienda las propiedades de estado de cada clase. (componente, el state vamos...)
+    "presets": ["@babel/preset-env", "@babel/preset-react"]
+    //el preset env nos transpila el ES6 a ES5, porque jest no entiende ES6 y necesitamos transpilarlo.
+    //el preset react depende de otros presets como el transpilador de JSX que es el que nos interesa aquí porque JEST tampoco lo entiende...
+}

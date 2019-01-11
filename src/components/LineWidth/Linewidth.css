@@ -1,0 +1,36 @@
+.width-container-buttons{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+.lineWidth-canvas-button{
+    border: none;
+    margin: 10px;
+    outline: 0;
+    background-color: black;
+    border-radius: 50px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.lineWidth-canvas-button:hover{
+    opacity: 0.50;
+    -moz-opacity: .50;
+    filter:alpha (opacity=50);
+  }
+.selected_line{
+    
+    margin: 10px;
+    color: #fff;
+    outline: 0;
+    background-color: black;
+    border-radius: 50px;
+    border: 1px solid white;
+    
+}
