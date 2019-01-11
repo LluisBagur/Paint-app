@@ -14,7 +14,7 @@ In it we can perform this functions:
 
 ## ScreenShot
 
-![](public/media/screenshoot.png)
+![](./public/media/screenshoot.png)
 
 
 # Technical description
